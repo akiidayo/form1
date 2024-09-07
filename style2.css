@@ -1,0 +1,108 @@
+@font-face {
+  src: url(myfonts/Caveat.ttf);
+  font-family: Caveat;
+}
+@font-face {
+  src: url(myfonts/DancingScript.ttf);
+  font-family: DancingScript;
+}
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #fd3569;
+  background-size: contain;
+  border-top-style: solid;
+  border-top-color: #f8733d;
+  border-left-style: inset;
+  border-bottom-style: groove;
+  border-color: #a39780;
+  border-width: 3px;
+  border-radius: 15px;
+}
+form{
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+  margin-inline-start: auto;
+  margin-block-end: auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-right: 12px;
+  background-color: #a70087;
+  box-shadow: 5px 5px 5px;
+  box-shadow-color: rgb(137, 252, 7);
+  border-style: solid;
+  border-color: #a70087;
+  border-width: 20px;
+  border-radius: 5px;
+  font: Caveat;
+  font-size: medium;
+  font-style: italic;
+  font-stretch: extra-expanded;
+}
+input{
+  display:flex;
+  align-self: self-end;
+  justify-content:auto;
+  font: DancingScript;
+  font-size: auto;
+  margin-left: 12px;
+}
+label{
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 100px;
+  font: Caveat;
+  font-size: auto;
+}
+h1 {
+  border-style: inset;
+  border-width: 3px;
+  border-radius: 15px;
+  border-color: #f8733d;
+  color: red;
+  font-family: DancingScript;
+  font-size: auto;
+}
+
+p {
+  color: yellow;
+  font-family: Caveat;
+  font-size: auto;
+}
+#a1 {
+  border-top: #f8733d;
+  border-style: inherit;
+  border-radius: 10px;
+  background-color: #fe3267;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-bottom:auto;
+  min-height: auto;
+  max-height: fit-content;
+  min-width: auto;
+  max-width: fit-content;
+}
+
+#a2 {
+  border-top: #f8733d;
+  border-style: inherit;
+  border-radius: 10px;
+  
+  
+  
+  background-color: #fe3267;
+  
+  min-height: auto;
+  max-height: fit-content;
+  min-width: auto;
+  max-width: fit-content;
+  margin-left: 22px;
+}
+#file{
+  border-top: #f8733d;
+  border-style:inherit;
+  background-color: #fe3267;
+  margin-bottom: auto;
+}
